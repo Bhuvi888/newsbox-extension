@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "NewsBox",
+  "description": "Daily news inbox",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [],
+  "icons": {
+    "16": "icon-16.png"
+  }
+}

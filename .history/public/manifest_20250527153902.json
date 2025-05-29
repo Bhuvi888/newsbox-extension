@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "NewsBox",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "/src/assets/icon-16.png",
+    "32": "/src/assets/icon-32.png",
+    "96": "assets/icon-96.png"
+  }
+}
